@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd0bff09b05d4f3c8f3b8f816669eccd" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Booking" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Category" Width="1.5" PointX="3.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Photo" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Rewiew" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Role" Width="1.5" PointX="1.5" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.Room" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.RoomCategory" Width="1.5" PointX="6" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.TimeSheet" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PhotoStudioSeverBDModel.User" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_Booking_TimeSheet" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_Booking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_RoomCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_Photo_Room" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_Rewiew_Quest" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_Rewiew_User" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_QuestCategory_Quest" ManuallyRouted="false" />
+        <AssociationConnector Association="PhotoStudioSeverBDModel.FK_TimeSheet_Quest" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
