@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\DIPLOMS\Хайруллин\PhotoStudioSeverApp\PhotoStudioSeverApp\App.xaml
-10151099343
+181681014098
 2-1890902742
-29-616852908
+40975858115
 27-605088581
-Pages\BookingPage.xaml;Pages\MyBookingPage.xaml;Pages\MyRewiewPage.xaml;Pages\RewiewsPage.xaml;Pages\RoomsCataloguePage.xaml;Pages\RoomsPage.xaml;Pages\UsersPage.xaml;Windows\LoginWindow.xaml;Windows\MainWindow.xaml;Windows\MyAccountWindow.xaml;
+Pages\AddRoomPage.xaml;Pages\AddUserPage.xaml;Pages\BookingPage.xaml;Pages\CategoryPage.xaml;Pages\MyBookingPage.xaml;Pages\MyRewiewPage.xaml;Pages\RewiewsPage.xaml;Pages\RoomsCataloguePage.xaml;Pages\RoomsPage.xaml;Pages\TimeTablePage.xaml;Pages\UsersPage.xaml;Windows\BookingWindow.xaml;Windows\CategoryWindow.xaml;Windows\LoginWindow.xaml;Windows\MainWindow.xaml;Windows\MakeRewiewWindow.xaml;Windows\MyAccountWindow.xaml;Windows\TimeTableWindow.xaml;
 
 False
 

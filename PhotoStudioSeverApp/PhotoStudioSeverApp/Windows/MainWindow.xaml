@@ -40,7 +40,7 @@
                             Content="{materialDesign:PackIcon Kind=Puzzle, Size=24}" Visibility="Collapsed"/>
 
                     <Button x:Name="BtnBooking"  Click="BtnBooking_Click" Visibility="Collapsed"
-                            ToolTip="Бронирование квестов" Style="{StaticResource MaterialDesignFlatButton}"
+                            ToolTip="Бронирование залов" Style="{StaticResource MaterialDesignFlatButton}"
                             Content="{materialDesign:PackIcon Kind=BookAccount, Size=24}"/>
 
 
@@ -60,7 +60,7 @@
                             Content="{materialDesign:PackIcon Kind=MessageDraw, Size=24}"
                             />
                     <Button x:Name="BtnMyBooking"  Click="BtnMyOrders_Click" Visibility="Collapsed"
-                            ToolTip="Мои квесты"
+                            ToolTip="Бронирование"
                             Style="{StaticResource MaterialDesignFlatButton}"
                             Content="{materialDesign:PackIcon Kind=Book, Size=24}"
                             />

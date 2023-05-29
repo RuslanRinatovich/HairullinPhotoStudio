@@ -94,9 +94,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Partials\Booking.cs" />
+    <Compile Include="Models\Partials\Photo.cs" />
     <Compile Include="Models\Partials\Room.cs" />
+    <Compile Include="Models\Partials\TimeSheet.cs" />
+    <Compile Include="Models\Partials\User.cs" />
+    <Compile Include="Pages\AddRoomPage.xaml.cs">
+      <DependentUpon>AddRoomPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddUserPage.xaml.cs">
+      <DependentUpon>AddUserPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\BookingPage.xaml.cs">
       <DependentUpon>BookingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CategoryPage.xaml.cs">
+      <DependentUpon>CategoryPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MyBookingPage.xaml.cs">
       <DependentUpon>MyBookingPage.xaml</DependentUpon>
@@ -110,11 +123,17 @@
     <Compile Include="Pages\RoomsPage.xaml.cs">
       <DependentUpon>RoomsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\TimeTablePage.xaml.cs">
+      <DependentUpon>TimeTablePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\UsersPage.xaml.cs">
       <DependentUpon>UsersPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\BookingWindow.xaml.cs">
       <DependentUpon>BookingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CategoryWindow.xaml.cs">
+      <DependentUpon>CategoryWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\MakeRewiewWindow.xaml.cs">
       <DependentUpon>MakeRewiewWindow.xaml</DependentUpon>
@@ -122,7 +141,22 @@
     <Compile Include="Windows\MyAccountWindow.xaml.cs">
       <DependentUpon>MyAccountWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Windows\TimeTableWindow.xaml.cs">
+      <DependentUpon>TimeTableWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Pages\AddRoomPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AddUserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\BookingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CategoryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,11 +180,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\TimeTablePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\UsersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\BookingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CategoryWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -228,6 +270,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\MyAccountWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\TimeTableWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -32,7 +32,8 @@ namespace PhotoStudioSeverApp.Pages
 
         void LoadDataGrid()
         {
-
+            //загрузка обновленных данных
+            PhotoStudioSeverBDEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
             List<Room> goods = PhotoStudioSeverBDEntities.GetContext().Rooms.OrderBy(p => p.Title).ToList();
             LViewGoods.ItemsSource = goods;
             _itemcount = goods.Count;
@@ -186,6 +187,24 @@ namespace PhotoStudioSeverApp.Pages
             //ListBoxRewiews.ItemsSource = quest.Rewiews;
             //DialogHostMoreInformation.DataContext = quest;
             //DialogHostMoreInformation.IsOpen = true;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Room room = (sender as Button).DataContext as Room;
+            room.SetPrevPhoto = 1;
+            //MessageBox.Show(room.GetCurrentPhoto);
+            Image image = (sender as Button).Tag as Image;
+            image.Source = new BitmapImage(new Uri(room.GetCurrentPhoto));
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Room room = (sender as Button).DataContext as Room;
+            room.SetNextPhoto = 1;
+           // MessageBox.Show(room.GetCurrentPhoto);
+            Image image = (sender as Button).Tag as Image;
+            image.Source = new BitmapImage(new Uri(room.GetCurrentPhoto));
         }
     }
 }
