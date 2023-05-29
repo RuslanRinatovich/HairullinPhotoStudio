@@ -153,15 +153,15 @@ namespace PhotoStudioSeverApp.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //Room quest = (sender as Button).DataContext as Room;
-            //BookingWindow bookingWindow = new BookingWindow(quest);
-            //bookingWindow.ShowDialog();
+            Room room = (sender as Button).DataContext as Room;
+            BookingWindow bookingWindow = new BookingWindow(room);
+            bookingWindow.ShowDialog();
         }
 
         private void BtnMakeRewiew_Click(object sender, RoutedEventArgs e)
         {
-            Room quest = (sender as Button).DataContext as Room;
-            MakeRewiewWindow makeRewiew = new MakeRewiewWindow(new Rewiew(), quest);
+            Room room = (sender as Button).DataContext as Room;
+            MakeRewiewWindow makeRewiew = new MakeRewiewWindow(new Rewiew(), room);
 
             if (makeRewiew.ShowDialog() == true)
             {
