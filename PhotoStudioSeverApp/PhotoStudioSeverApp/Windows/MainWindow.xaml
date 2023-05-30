@@ -37,7 +37,7 @@
 
                     <Button x:Name="BtnRooms"  Click="BtnRooms_Click" 
                             ToolTip="Залы" Style="{StaticResource MaterialDesignFlatButton}"
-                            Content="{materialDesign:PackIcon Kind=Puzzle, Size=24}" Visibility="Collapsed"/>
+                            Content="{materialDesign:PackIcon Kind=Room, Size=24}" Visibility="Collapsed"/>
 
                     <Button x:Name="BtnBooking"  Click="BtnBooking_Click" Visibility="Collapsed"
                             ToolTip="Бронирование залов" Style="{StaticResource MaterialDesignFlatButton}"

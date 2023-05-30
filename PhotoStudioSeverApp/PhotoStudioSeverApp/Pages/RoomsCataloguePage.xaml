@@ -26,7 +26,7 @@
 
         <WrapPanel Grid.Row="0" HorizontalAlignment="Stretch"  >
 
-            <TextBox Width="275" x:Name="TBoxSearch"  materialDesign:HintAssist.Hint="Введите название квеста" TextChanged="TBoxSearch_TextChanged"
+            <TextBox Width="275" x:Name="TBoxSearch"  materialDesign:HintAssist.Hint="Введите название зала" TextChanged="TBoxSearch_TextChanged"
                          />
 
    
